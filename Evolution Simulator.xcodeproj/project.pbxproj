@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B6B64F31D261DA500112C5A /* Phenotype.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B6B64F11D261DA500112C5A /* Phenotype.cpp */; };
+		8B6B64F61D26C32C00112C5A /* Species.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B6B64F41D26C32C00112C5A /* Species.cpp */; };
+		8B6B64FA1D26FA2F00112C5A /* Statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B6B64F81D26FA2F00112C5A /* Statistics.cpp */; };
+		8BB12FD01D27203800231598 /* Population.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB12FCE1D27203800231598 /* Population.cpp */; };
 		8BC317F11D2370B8007C35B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC317F01D2370B8007C35B9 /* main.cpp */; };
+		8BC317FF1D23744F007C35B9 /* Chromosome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC317FD1D23744F007C35B9 /* Chromosome.cpp */; };
+		8BC318021D238FFF007C35B9 /* Genotype.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC318001D238FFF007C35B9 /* Genotype.cpp */; };
+		8BC318051D2411B0007C35B9 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC318031D2411B0007C35B9 /* Random.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B6B64F11D261DA500112C5A /* Phenotype.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Phenotype.cpp; sourceTree = "<group>"; };
+		8B6B64F21D261DA500112C5A /* Phenotype.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Phenotype.hpp; sourceTree = "<group>"; };
+		8B6B64F41D26C32C00112C5A /* Species.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Species.cpp; sourceTree = "<group>"; };
+		8B6B64F51D26C32C00112C5A /* Species.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Species.hpp; sourceTree = "<group>"; };
+		8B6B64F81D26FA2F00112C5A /* Statistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Statistics.cpp; sourceTree = "<group>"; };
+		8B6B64F91D26FA2F00112C5A /* Statistics.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Statistics.hpp; sourceTree = "<group>"; };
+		8BB12FCE1D27203800231598 /* Population.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Population.cpp; sourceTree = "<group>"; };
+		8BB12FCF1D27203800231598 /* Population.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Population.hpp; sourceTree = "<group>"; };
 		8BC317ED1D2370B8007C35B9 /* Evolution Simulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Evolution Simulator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC317F01D2370B8007C35B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8BC317FD1D23744F007C35B9 /* Chromosome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chromosome.cpp; sourceTree = "<group>"; };
+		8BC317FE1D23744F007C35B9 /* Chromosome.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Chromosome.hpp; sourceTree = "<group>"; };
+		8BC318001D238FFF007C35B9 /* Genotype.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Genotype.cpp; sourceTree = "<group>"; };
+		8BC318011D238FFF007C35B9 /* Genotype.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Genotype.hpp; sourceTree = "<group>"; };
+		8BC318031D2411B0007C35B9 /* Random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
+		8BC318041D2411B0007C35B9 /* Random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Random.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				8BC317F01D2370B8007C35B9 /* main.cpp */,
+				8BC318031D2411B0007C35B9 /* Random.cpp */,
+				8BC318041D2411B0007C35B9 /* Random.hpp */,
+				8BC317FD1D23744F007C35B9 /* Chromosome.cpp */,
+				8BC318001D238FFF007C35B9 /* Genotype.cpp */,
+				8BC318011D238FFF007C35B9 /* Genotype.hpp */,
+				8B6B64F81D26FA2F00112C5A /* Statistics.cpp */,
+				8B6B64F91D26FA2F00112C5A /* Statistics.hpp */,
+				8BC317FE1D23744F007C35B9 /* Chromosome.hpp */,
+				8B6B64F11D261DA500112C5A /* Phenotype.cpp */,
+				8B6B64F41D26C32C00112C5A /* Species.cpp */,
+				8B6B64F51D26C32C00112C5A /* Species.hpp */,
+				8B6B64F21D261DA500112C5A /* Phenotype.hpp */,
+				8BB12FCE1D27203800231598 /* Population.cpp */,
+				8BB12FCF1D27203800231598 /* Population.hpp */,
 			);
 			path = "Evolution Simulator";
 			sourceTree = "<group>";
@@ -118,7 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6B64F61D26C32C00112C5A /* Species.cpp in Sources */,
+				8B6B64F31D261DA500112C5A /* Phenotype.cpp in Sources */,
+				8BB12FD01D27203800231598 /* Population.cpp in Sources */,
+				8BC318051D2411B0007C35B9 /* Random.cpp in Sources */,
 				8BC317F11D2370B8007C35B9 /* main.cpp in Sources */,
+				8BC318021D238FFF007C35B9 /* Genotype.cpp in Sources */,
+				8BC317FF1D23744F007C35B9 /* Chromosome.cpp in Sources */,
+				8B6B64FA1D26FA2F00112C5A /* Statistics.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +256,7 @@
 		8BC317F61D2370B8007C35B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -237,6 +280,7 @@
 				8BC317F61D2370B8007C35B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
